@@ -6,12 +6,19 @@ namespace Proj0.Model.Blocks
     {
         protected override void RunFirst(ref int[] array)
         {
-
+            ArrayExtensions.RemoveAtEvenIndexes(ref array);
         }
 
         protected override void RunSecond(ref int[][] array)
         {
+            int[][] result = new int[(array.GetLength(0)) / 2][];
 
+            for (int i = 1, j = 0; i < array.Length; i += 2, j++)
+            {
+                result[j] = array[i];
+            }
+
+            array = result;
         }
     }
 }
