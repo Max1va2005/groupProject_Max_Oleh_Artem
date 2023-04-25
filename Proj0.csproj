@@ -1,0 +1,110 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{D7C37DCE-E279-45DD-8C2B-304D9FF5EA97}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Proj0</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Proj0\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\Proj0\FileContentIndex\bc156278-8dab-4231-bf60-b0d66ee94890.vsidx" />
+    <None Include=".vs\Proj0\FileContentIndex\read.lock" />
+    <None Include=".vs\Proj0\v17\.futdcache.v2" />
+    <None Include=".vs\Proj0\v17\.suo" />
+    <None Include=".vs\ProjectEvaluation\proj0.metadata.v5.1" />
+    <None Include=".vs\ProjectEvaluation\proj0.metadata.v6.1" />
+    <None Include=".vs\ProjectEvaluation\proj0.projects.v5.1" />
+    <None Include=".vs\ProjectEvaluation\proj0.projects.v6.1" />
+    <None Include="app.config" />
+    <None Include="Proj0\bin\Debug\net7.0\Proj0.deps.json" />
+    <None Include="Proj0\bin\Debug\net7.0\Proj0.runtimeconfig.json" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.AssemblyInfoInputs.cache" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.assets.cache" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.csproj.AssemblyReference.cache" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.csproj.BuildWithSkipAnalyzers" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.csproj.CoreCompileInputs.cache" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Proj0\obj\Debug\net7.0\Proj0.genruntimeconfig.cache" />
+    <None Include="Proj0\obj\Proj0.csproj.nuget.dgspec.json" />
+    <None Include="Proj0\obj\Proj0.csproj.nuget.g.props" />
+    <None Include="Proj0\obj\Proj0.csproj.nuget.g.targets" />
+    <None Include="Proj0\obj\project.assets.json" />
+    <None Include="Proj0\obj\project.nuget.cache" />
+    <None Include="Proj0\Proj0.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Proj0\bin\Debug\net7.0\Proj0.dll" />
+    <Content Include="Proj0\bin\Debug\net7.0\Proj0.exe" />
+    <Content Include="Proj0\bin\Debug\net7.0\Proj0.pdb" />
+    <Content Include="Proj0\obj\Debug\net7.0\apphost.exe" />
+    <Content Include="Proj0\obj\Debug\net7.0\Proj0.csproj.FileListAbsolute.txt" />
+    <Content Include="Proj0\obj\Debug\net7.0\Proj0.dll" />
+    <Content Include="Proj0\obj\Debug\net7.0\Proj0.pdb" />
+    <Content Include="Proj0\obj\Debug\net7.0\refint\Proj0.dll" />
+    <Content Include="Proj0\obj\Debug\net7.0\ref\Proj0.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Proj0\Controller\ConsoleInputHandler.cs" />
+    <Compile Include="Proj0\Controller\Program.cs" />
+    <Compile Include="Proj0\Extensions\ArrayExtensions.cs" />
+    <Compile Include="Proj0\Model\Blocks\Additional\Block1.cs" />
+    <Compile Include="Proj0\Model\Blocks\Additional\Block2.cs" />
+    <Compile Include="Proj0\Model\Blocks\Additional\Block3.cs" />
+    <Compile Include="Proj0\Model\Blocks\Basement\Block1.cs" />
+    <Compile Include="Proj0\Model\Blocks\Basement\Block2.cs" />
+    <Compile Include="Proj0\Model\Blocks\Basement\Block3.cs" />
+    <Compile Include="Proj0\Model\Blocks\Block.cs" />
+    <Compile Include="Proj0\Model\Tasks\ITask.cs" />
+    <Compile Include="Proj0\Model\Tasks\Task1.cs" />
+    <Compile Include="Proj0\Model\Tasks\Task2.cs" />
+    <Compile Include="Proj0\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="Proj0\obj\Debug\net7.0\Proj0.AssemblyInfo.cs" />
+    <Compile Include="Proj0\obj\Debug\net7.0\Proj0.GlobalUsings.g.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Proj0\FileContentIndex\merges\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

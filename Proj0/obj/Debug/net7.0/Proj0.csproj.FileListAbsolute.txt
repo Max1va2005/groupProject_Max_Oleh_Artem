@@ -1,0 +1,15 @@
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.AssemblyInfo.cs
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\Proj0\Proj0\bin\Debug\net7.0\Proj0.exe
+C:\Users\Artem\source\repos\Proj0\Proj0\bin\Debug\net7.0\Proj0.deps.json
+C:\Users\Artem\source\repos\Proj0\Proj0\bin\Debug\net7.0\Proj0.runtimeconfig.json
+C:\Users\Artem\source\repos\Proj0\Proj0\bin\Debug\net7.0\Proj0.dll
+C:\Users\Artem\source\repos\Proj0\Proj0\bin\Debug\net7.0\Proj0.pdb
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.dll
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\refint\Proj0.dll
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.pdb
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\Proj0.genruntimeconfig.cache
+C:\Users\Artem\source\repos\Proj0\Proj0\obj\Debug\net7.0\ref\Proj0.dll
