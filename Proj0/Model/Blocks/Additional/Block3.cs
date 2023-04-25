@@ -6,7 +6,7 @@ namespace Proj0.Model.Blocks
     {
         protected override void RunFirst(ref int[] array)
         {
-            ArrayExtensions.RemoveAtEvenIndexes(ref array);
+            ArrayExtensions.RemoveOddElements(ref array);
         }
 
         protected override void RunSecond(ref int[][] array)

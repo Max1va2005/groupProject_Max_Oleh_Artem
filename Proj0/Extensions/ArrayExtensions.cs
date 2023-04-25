@@ -92,6 +92,19 @@
             }
         }
 
+        public static void RemoveOddElements<T>(ref T[] array)
+        {
+            List<T> result = new List<T>();
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    result.Add(array[i]);
+                }
+            }
+            array = result.ToArray();
+        }
+
         public static T[] RemoveAt<T>(this T[] source, int index)
         {
             List<T> list = source.ToList();
