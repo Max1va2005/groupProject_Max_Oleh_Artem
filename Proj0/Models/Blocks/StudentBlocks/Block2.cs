@@ -4,8 +4,8 @@
     {
         protected override void RunFirst(ref int[] array)
         {
-            int[] res = InsertionMaxAndMin(array); Console.WriteLine("Вигляд массиву пiсля вставки в початок масиву мiнiмуму з усiх значень масиву, а в кiнець — максимум");
-            OutputMass(res);
+            array = InsertionMaxAndMin(array);
+            
         }
         protected override void RunSecond(ref int[][] array)
         {
