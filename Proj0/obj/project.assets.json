@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo T470p\\.nuget\\packages\\": {}
+    "C:\\Users\\Artem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo T470p\\Source\\Repos\\groupProject_Max_Oleh_Artem\\Proj0\\Proj0.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\source\\repos\\groupProject_Max_Oleh_Artem\\Proj0\\Proj0.csproj",
       "projectName": "Proj0",
-      "projectPath": "C:\\Users\\Lenovo T470p\\Source\\Repos\\groupProject_Max_Oleh_Artem\\Proj0\\Proj0.csproj",
-      "packagesPath": "C:\\Users\\Lenovo T470p\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo T470p\\Source\\Repos\\groupProject_Max_Oleh_Artem\\Proj0\\obj\\",
+      "projectPath": "C:\\Users\\Artem\\source\\repos\\groupProject_Max_Oleh_Artem\\Proj0\\Proj0.csproj",
+      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Artem\\source\\repos\\groupProject_Max_Oleh_Artem\\Proj0\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo T470p\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
