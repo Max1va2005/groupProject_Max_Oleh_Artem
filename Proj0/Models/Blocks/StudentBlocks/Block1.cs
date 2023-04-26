@@ -3,7 +3,7 @@ using Proj0.Extensions;
 
 namespace Proj0.Model.Blocks
 {
-    public partial class Block1 : Block
+    public class Block1 : Block
     {
         protected override void RunFirst(ref int[] array)
         {

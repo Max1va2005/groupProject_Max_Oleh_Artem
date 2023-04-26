@@ -8,9 +8,11 @@ namespace Proj0.Model.Blocks
 {
     public abstract class Block
     {
+        private const int FIRST_TASK = 1;
+
         public void Run(int task, ref int[] array1, ref int[][] array2)
         {
-            if (task == 1)
+            if (task == FIRST_TASK)
             {
                 RunFirst(ref array1);
                 return;

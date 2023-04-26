@@ -2,7 +2,7 @@
 
 namespace Proj0.Model.Blocks
 {
-    public partial class Block3 : Block
+    public class Block3 : Block
     {
         protected override void RunFirst(ref int[] array)
         {
